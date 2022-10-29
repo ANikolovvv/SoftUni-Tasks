@@ -1,0 +1,29 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+ul{
+    display: inline-block;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+a{
+    border-radius: 50%;
+   
+}
+ul li:first-child:hover{
+    color: blue;
+}
+ul li:nth-child(2):hover{
+    color:lightblue;
+}
+ul li:nth-child(3):hover{
+    color:lightcoral;
+}
+ul li:nth-child(4):hover{
+    color:blue;
+}
+ul li:nth-child(5):hover{
+    color:lightblue;
+}
