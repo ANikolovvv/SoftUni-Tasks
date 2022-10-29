@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 20px 50px;
+}
+.nav {
+  display: inline-block;
+}
+.nav p {
+  display: inline-block;
+}
+.nav nav {
+  display: inline-block;
+  transform: translate(150%, -10%);
+}
+
+.nav nav ul li {
+  display: inline-block;
+}
+.nav nav ul li a {
+  margin-right: 10px;
+  color: rgb(0, 102, 0);
+}
+
+main {
+  display: inline-block;
+  width: 70%;
+}
+
+.first img {
+  margin: 2px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+  float: right;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.title {
+  font-family: Georgia, serif;
+  font-size: 1em/1.2;
+}
+
+.second .art {
+  width: 38%;
+  border-left: 2px solid gray;
+  float: right;
+  padding: 0px 10px;
+}
+.art-one {
+  margin: 0px;
+}
+blockquote {
+  text-align: right;
+  font-family: Georgia, serif;
+}
+.three img {
+  margin: 10px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+  float: left;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+aside {
+  margin-left: 40px;
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+aside section nav ul {
+  padding: 30px;
+}
+aside section nav ul li a {
+  color: rgb(0, 102, 0);
+}
