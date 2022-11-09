@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px) {
+    .site-navigation{
+         display: none;
+    }
+    .site-header .site-navigation ul{
+        display: none;
+    }
+    .site-header .site-navigation ul li{
+        display: none;
+    }
+    .site-header .site-header-logo{
+      margin-right: 0;
+    }
+    .site-main{
+        margin: 0;
+    }
+    main .entry-header{
+       width: 100%;
+       height: 100%;
+       
+    }
+    .entry-header-description{
+        left: 130px;
+        padding-left: 20px;
+    }
+    .entry-header .entry-header-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+
+    }
+    .entry-header .entry-header-container h1{
+        text-align: center;
+
+    }
+    .site-logos-container{
+       display: flex;
+       flex-wrap: wrap;
+       min-width: 0;
+       justify-content: center;
+    }
+    .entry-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   
+    .entry-content .site-information{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .entry-content .site-information .site-information-text{
+        text-align: center;
+    }
+    .entry-content .site-information .site-information-text .entry-description{
+        text-align: center;
+        width: 100%;
+    }
+    .entry-content .site-information .site-information-image {
+        display: none;
+    }
+    .entry-content .site-form-container h5 {
+       font-size: 3.2rem;
+    }
+    .entry-content .site-form-container > form p{
+      display: flex;
+      flex-direction: column;
+    }
+    .entry-content .site-form-container > form p input{
+       width: 80%;
+    }
+    .site-form button{
+        margin: 0;
+        text-align: center;
+        display: inline-block;
+    }
+    .site-blog-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .site-posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .site-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
