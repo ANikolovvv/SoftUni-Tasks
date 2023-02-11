@@ -2,10 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   names: [{ name: "West" }, { name: "Asest" }],
-  isLoading: true,
   counter: 0,
   total: 0,
 };
+
 const arraySlice = createSlice({
   name: "array",
   initialState,
@@ -19,10 +19,7 @@ const arraySlice = createSlice({
       console.log(name, "remove");
     },
     addName: (state, action) => {
-      const name = action.payload;
-      // let newName = state.names.slice();
-      // newName.push(name);
-      // state.names = newName;
+    
       state.names.push(action.payload);
     },
     updateName: (state, action) => {
