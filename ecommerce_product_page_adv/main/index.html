@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./mobile.css" />
+    <link rel="stylesheet" href="./main.css" />
 
     <title>Frontend Mentor | E-commerce product page</title>
 
@@ -28,10 +29,24 @@
     </style>
   </head>
   <body>
+    <div class="one" id="cl-img">
+      <div class="close">
+        <img src="./images/icon-close.svg" alt="" width="50" srcset="" />
+      </div>
+      <div class="big">
+        <img id="current" src="./images/image-product-1.jpg"   height="" />
+      </div>
+      <ul class="small-two">
+        <li><img src="./images/image-product-1-thumbnail.jpg" /></li>
+        <li><img src="./images/image-product-2-thumbnail.jpg" /></li>
+        <li><img src="./images/image-product-3-thumbnail.jpg" /></li>
+        <li><img src="./images/image-product-4-thumbnail.jpg" /></li>
+      </ul>
+    </div>
     <header>
       <div><h1>sneakers</h1></div>
-      <img src="./images/icon-close.svg" width="20" class="x">
-      <nav>
+      <img src="./images/icon-close.svg" width="20" class="x" />
+      <nav class="n">
         <ul class="nav">
           <li>
             <h4>Collections</h4>
@@ -58,18 +73,27 @@
       <div class="img-box">
         <div><img src="./images/icon-cart.svg" width="30" /></div>
         <div>
-          <img class="pic" src="./images/image-avatar.png" width="60" />
+          <img
+            class="pic"
+            id="avatar"
+            src="./images/image-avatar.png"
+            width="60"
+          />
         </div>
       </div>
     </header>
     <hr class="hr" />
-
+    <div class="card" id="card">
+      <h2>Card</h2>
+      <hr class="h" />
+      <p class="p">Your card is emty.</p>
+    </div>
     <main>
       <div class="container">
         <div class="big">
           <img src="./images/image-product-1.jpg" height="700" />
         </div>
-        <ul class="small">
+        <ul class="small" id="all-img">
           <li><img src="./images/image-product-1-thumbnail.jpg" /></li>
           <li><img src="./images/image-product-2-thumbnail.jpg" /></li>
           <li><img src="./images/image-product-3-thumbnail.jpg" /></li>
@@ -111,4 +135,5 @@
     Featuring a durable rubber outer sole, they’ll withstand everything the
     weather can offer. $125.00 50% $250.00 0 Add to cart
   </body>
+  <script src="./index.js"></script>
 </html>
