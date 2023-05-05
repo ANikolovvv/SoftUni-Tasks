@@ -80,17 +80,40 @@ li:hover .li {
   border-radius: 50px;
   border: solid 3px white;
 }
+.card {
+  visibility: visible;
+  position: absolute;
+  display: none;
+  top: 8%;
+  left: 68%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  flex-direction: column;
+  width: 30%;
+  height: 250px;
+  z-index: 5;
+}
 .pic:hover {
   border-color: hsl(26, 100%, 55%);
 }
+
+.h {
+  width: 100%;
+  border-color: hsl(220, 14%, 75%);
+}
+.card h2 {
+  margin-left: 10px;
+}
 main {
+  position: relative;
   margin: 0px 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 80px;
-  height: 90vh;
+  height: 70vh;
 }
 .container {
   width: 50%;
@@ -143,10 +166,13 @@ main {
   font-weight: 700;
   font-size: 50px;
 }
-.info p {
+ p {
   font-size: 24px;
   letter-spacing: 1px;
   color: hsl(220, 14%, 75%);
+}
+.p{
+  text-align: center;
 }
 .price {
   display: flex;
