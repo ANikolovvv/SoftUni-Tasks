@@ -12,8 +12,8 @@
 <p align="center">When an error occurs during data fetching, we display an error message to the user for each field that encountered an error.</p>
 <hr/>
 <p align="center">
-  <img src="./image.png" width="350" title="hover text">
-  <img src="./error-image.png" width="350" title="hover text">
+  <img src="./images/image.png" width="350" title="hover text">
+  <img src="./images/error-image.png" width="350" title="hover text">
   
 </p>
 <hr/>
