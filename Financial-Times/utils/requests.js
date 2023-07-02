@@ -2,7 +2,7 @@ const url =
   "https://markets-data-api-proxy.ft.com/research/webservices/securities/v1/quotes?symbols=";
 
 export async function fetchFtseInfo() {
-  const fetchData = await fetch(`${url}FTSE:FSI`);
+  const fetchData = await fetch(url + 'FTSE:FSI');
   return await fetchData.json();
 }
 
@@ -21,7 +21,7 @@ export async function fetchPoundDollarInfo() {
   return poundDollar.json();
 }
 
-export async function fetchOilInfo() {
+export async function fetchBrentOilInfo() {
   const oil = await fetch(url + "IB.1:IEU");
   return oil.json();
 }
