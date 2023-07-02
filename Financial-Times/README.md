@@ -1,6 +1,6 @@
 <h1 align="center"><i> FT Specialist Internship Task</i></h1>
 
-**_<p align="center">The app is developed using HTML, CSS, and JavaScript, without utilizing frameworks such as React or Angular. When the app is launched, it displays a page with a title and a container that presents market data information. Initially, all fields are in a loading state, and after a few seconds, the fields will update to display current data or an error message if there was an issue retrieving the data.To start the tests, write npm run test in the terminal. I am using Mocha, Chai, and JSDOM for testing purposes.</p>_**
+**_<p align="center">The app is developed using HTML, CSS, and JavaScript, without utilizing frameworks and library such as React or Angular. When the app is launched, it displays a page with a title and a container that presents market data information. Initially, all fields are in a loading state, and after a few seconds, the fields will update to display current data or an error message if there was an issue retrieving the data.To start the tests, write npm run test in the terminal. I am using Mocha, Chai, and JSDOM for testing purposes.</p>_**
 
 <hr/>
 <h2 align="center">Unit testing for Data Fetching and HTML Tags Existence - Stack </h2>
