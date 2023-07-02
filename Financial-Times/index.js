@@ -1,7 +1,7 @@
 import { domManipulationHandler } from "./utils/helper.js";
 import {
   fetchEuroDollarInfo,
-  fetchOilInfo,
+  fetchBrentOilInfo,
   fetchFtseInfo,
   fetchSpInfo,
   fetchPoundDollarInfo,
@@ -59,14 +59,13 @@ async function solve() {
   }
 
   try {
-    const fetchOil = await fetchOilInfo();
+    const fetchOil = await fetchBrentOilInfo();
     if (!fetchOil.error) {
       domManipulationHandler(brent, fetchOil);
     }
   } catch (error) {
     brent.classList.add("red");
     brent.textContent = error.message;
-    console.log(error.message)
   }
 }
 solve();
