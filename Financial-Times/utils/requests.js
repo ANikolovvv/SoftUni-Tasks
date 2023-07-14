@@ -23,5 +23,5 @@ export async function fetchPoundDollarInfo() {
 
 export async function fetchBrentOilInfo() {
   const oil = await fetch(url + "IB.1:IEU");
-  return oil.json();
+  return await  oil.json();
 }
