@@ -20,8 +20,8 @@
   width: 35%;
 }
 .cards_box {
+  margin-top: 20px;
   margin-right: 40px;
-  width: 100%;
   display: grid;
   justify-content: center;
   align-items: center;

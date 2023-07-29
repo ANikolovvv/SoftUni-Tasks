@@ -14,12 +14,13 @@ const Home = () => {
     const { price, rating } = e;
 
     let filtredData = data.shorts.filter((x) => {
-      if (Number(price) >= x.price) {
+      if (Number(price) && Number(price) <= x.price) {
         return true;
       }
-      if (Number(rating) >= x.rating) {
+      if (Number(rating) && Number(rating) <= x.rating) {
         return true;
       }
+
       return false;
     });
 
