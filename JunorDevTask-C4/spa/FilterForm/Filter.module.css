@@ -1,0 +1,29 @@
+.filter_container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.filter_container h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.filter_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  height: auto;
+}
+
+.label_box {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
