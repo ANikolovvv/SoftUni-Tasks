@@ -35,7 +35,7 @@ const arraySlice = createSlice({
     },
   },
 });
-console.log(arraySlice);
+
 export const { clearArray, removeName, addName, updateName } =
   arraySlice.actions;
 export default arraySlice.reducer;
