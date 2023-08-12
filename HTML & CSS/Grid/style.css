@@ -1,0 +1,38 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 300px);
+  grid-template-areas:
+    'head nav aside'
+    'head main main'
+    'head main main'
+    'footer footer footer';
+  gap: 10px;
+}
+main div {
+  color: azure;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+.one {
+  background-color: aqua;
+  grid-area: head;
+}
+.two {
+  background-color: blue;
+  grid-area: nav;
+}
+.three {
+  background-color: red;
+  grid-area: footer;
+}
+.four {
+  background-color: black;
+  grid-area: main;
+}
+.five {
+  background-color: blueviolet;
+  grid-area: aside;
+}
