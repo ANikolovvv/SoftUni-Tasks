@@ -20,7 +20,7 @@ function App() {
   useEffect(()=>{
      dispatch(getSwapi())
   },[])
-  console.log(isLoading,'star')
+
   return (
     <div className={styles.App}>
       {<Modal/>}
