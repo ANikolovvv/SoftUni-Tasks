@@ -1,3 +1,3 @@
 
-In this project i add my daily tasks ,given me by SoftUni.
+In this repo, I manage my daily tasks assigned to me by SoftUni.
 
