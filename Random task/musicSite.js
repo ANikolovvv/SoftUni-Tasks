@@ -6,7 +6,6 @@ function solve() {
   let butonAdd = document.getElementById("add-btn");
   console.log(butonAdd);
   let attach = document.querySelector(".all-hits-container");
-  // console.log(document.getElementById("genre").value)
 
   butonAdd.addEventListener("click", (e) => {
     e.preventDefault();
@@ -17,7 +16,7 @@ function solve() {
     console.log(genre.value.length);
     if (g.length > 0 && n.length > 0 && a.length > 0 && d.length > 0) {
       let div = document.createElement("div");
-      //console.log(document.getElementById("genre").value);
+    
       div.setAttribute("class", "hits-info");
       let img = document.createElement("img");
       img.src = "./static/img/img.png";
